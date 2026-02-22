@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lucas de Bail"
+title                    : "Lucas de Bail Ribas"
 title_separator          : "-"
-name                     : &name "Lucas de Bail"
+name                     : &name "Lucas de Bail Ribas"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://lucasdebail.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -79,11 +79,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lucas de Bail"
-  avatar           : "profile.png"
+  name             : "Lucas de Bail Ribas"
+  avatar           : "biopic.jpg"
   bio              : "Applied Linguistics PhD Student"
   location         : "Atlanta, GA"
-  employer         :
+  employer         : "Georgia State University"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
@@ -95,14 +95,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/lucasdebail"
+  github           : "lucasdebail"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
 #  stackoverflow    : # http://stackoverflow.com/users/123456/username
