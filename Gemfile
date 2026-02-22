@@ -1,27 +1,44 @@
-source "https://rubygems.org"
+name: Build and Deploy Jekyll
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+on:
+  push:
+    branches:
+      - master
 
-gem "github-pages", group: :jekyll_plugins
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-# gem "jekyll"
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
 
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  # gem "jekyll-archives"
-  gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
-end
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './_site'
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
