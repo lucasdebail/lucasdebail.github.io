@@ -10,7 +10,9 @@ redirect_from:
 
 **About**
 
-Lucas de Bail Ribas, Applied Linguistics PhD Student, Experienced Air Traffic Controller.
+Applied Linguistics PhD Student, Experienced Air Traffic Controller.
+
+Research Interests: Aviation English, ESP, Language Policy, Speech Intelligibility, Corpus Linguistics, Language Assessment, Curriculum Development
 
 You may contact me at lribas1@gsu.edu
 
