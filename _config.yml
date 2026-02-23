@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lucas de Bail Ribas"
+title                    : "Lucas de Bail"
 title_separator          : "-"
-name                     : &name "Lucas de Bail Ribas"
+name                     : &name "Lucas de Bail"
 description              : &description "Hm, this is me."
 url                      : https://lucasdebail.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lucas de Bail Ribas"
+  name             : "Lucas de Bail"
   avatar           : "biopic.jpg"
   bio              : "Applied Linguistics PhD Student"
   location         : "Atlanta, GA"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "lucas-de-bail-ribas-7413661aa/"
+  linkedin         : "lucas-de-bail-7413661aa/"
   orcid            : "https://orcid.org/0000-0001-5895-9714"
   pinterest        :
   soundcloud       :
