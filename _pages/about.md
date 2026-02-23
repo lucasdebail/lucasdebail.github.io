@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+**About**
 
 Lucas de Bail Ribas, Applied Linguistics PhD Student, Experienced Air Traffic Controller.
 
