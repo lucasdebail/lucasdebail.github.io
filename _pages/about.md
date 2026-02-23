@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Lucas de Bail, Applied Linguistics PhD Student, Experienced Air Traffic Controller
+Lucas de Bail Ribas, Applied Linguistics PhD Student, Experienced Air Traffic Controller.
 
 You may contact me at lribas1@gsu.edu
 
