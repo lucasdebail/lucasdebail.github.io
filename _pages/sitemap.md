@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: 
+permalink: https://lucasdebail.github.io
 author_profile: false
 ---
 
