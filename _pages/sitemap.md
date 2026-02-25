@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Sitemap"
-permalink: /images/ccv-rea-wt-curitiba_rea_20231228.jpg
+permalink: /images/ccv-rea-wt-curitiba_rea_20231228
 author_profile: true
 ---
 
