@@ -16,5 +16,8 @@ Research Interests: Aviation English, ESP, Language Policy, Speech Intelligibili
 
 You may contact me at <a href="mailto:lribas1@gsu.edu">lribas1@gsu.edu</a> 
 
+<img src="images/Picture1.jpg" alt="Me at Curitiba Approach, when I couldn't have a beard.">
+
+
 
 
