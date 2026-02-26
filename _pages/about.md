@@ -16,7 +16,7 @@ Research Interests: Aviation English, ESP, Language Policy, Speech Intelligibili
 
 You may contact me at <a href="mailto:lribas1@gsu.edu">lribas1@gsu.edu</a> 
 
-<img src="images/Picture1.jpg" alt="Me at Curitiba Approach, when I couldn't have a beard.">
+<img src="[images/Picture1.jpg](https://github.com/lucasdebail/lucasdebail.github.io/blob/67cb05994968b6aa3e1aa419d847502f22d4e8eb/images/Picture1.jpg)" alt="Me at Curitiba Approach, when I couldn't have a beard.">
 
 
 
